@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Does region affect games genre sales</title>
+    <link rel = "stylesheet" href = "StyleSheet.css">
+</head>
+<body class="inline-grid">
+    <div class="header">
+        <h1 style="text-align: left; color: rgb(7, 7, 7);">
+            <span style="font-family: georgia">
+                Game sales per region <br>
+            </span>
+            <span style="font-family:garamond;">
+                Does region affect the sales of certain game genres and help establish gaps in the market?
+            </span>
+        </h1>
+        <p style="text-align: right; color: rgb(100,100,100);">
+            By Daniel Tillen
+        </p>
+    </div>
+
+    <div class="Content">
+        <hr class="underline">
+        <h2 id="Abstract">
+            Abstract
+        </h2>
+        <p>
+            In this research, I have investigated the relationship between game sales and the regions in which they are sold. I have concluded that some game genres sell much better in different regions of the world.
+            Game engagement and market share have increased exponentially since the medium's inception, and by analysing  sales data within regions, there is cause to establish a gap in the market for a new genre or a spin off on an established genre. 
+            Granted, the production of the game goes smoothly, there are trends to suggest that the genre will do well within a region or multiple regions.
+        </p>
+
+        <hr class="underline">
+        <h2 id="Introduction">
+            Introduction
+        </h2>
+        <p>
+            With the wide recognition of the video games medium surging in the early 70s [1],as of 2026, it is one of the largest markets within the entertainment industry.
+            They are becoming widely more accessible to people of all ages and backgrounds, in a lot of parts of the world. A statistic in 2022 states that the video game industry is now worth $213 billion [2]. It is understood that factors such as a games ESRB rating can affect the overall sales of a game within regions (especially physically) [3], and whether the video game in question appeals to the population and genre.
+            With my research, I will analyse trends within video game market data and venture to pull conclusions from this data that can accurately ascribe characteristics to the sales. In turn, this will be helpful in identifying where the market is most relevant and help obtain an ideal genre or achieve a whole new genre.
+            This can be done through combining genres, or taking attributes of popular genres and creating something completely fresh that will sell to a target audience or network externality [4].
+        </p>
+        <p>
+            In regard to my stakeholders, any studio or individual trying to judge the market or enter the market with a video game or idea. Within my literature review, I will carry out research that retains information on the video games market as a whole and regionally.
+            From this I will come to a final conclusion on whether specific regions gravitate towards more specific archetypes and also whether there is potential for gaps in the market by analysing this data.
+        </p>
+
+        <hr class="underline">
+
+        <h2 id="Literature Review">
+            Literature Review
+        </h2>
+        <p>
+            While focusing on the discussion that region affects sales within the video game market, I think it's also important to highlight the impact of hardware. With the rise of subscription based services such as Xbox Game Pass [5] and the vast amount of sales attributed to this market (see Figure 3), it would be ignorant to ignore it. In this Scholarly Journal [6], it supports the idea that every single marketing idea is based on what the consumer needs and wants as well as STP(segmentation, targeting and positioning).
+            This is particularly evident in hardware, such as PlayStation for example, which only offers certain IPs to be played on their system for an amount of time [7].
+            The journals referenced primarily focus on the effect of consoles, but I believe that with the combination of console bias and genre bias, we can come to a more grounded conclusion and recommendation when approaching the video game market.
+
+        </p>
+        An article hosted by VGChartz [8] showcases the best selling game in Japan (February 2026) being Mario Tennis Fever, a game made for the Nintendo Switch 2. The Nintendo Switch 2 accounted for over half of the home console sales in the country for 2025 [9]. 
+        With this knowledge being identified, it would be logical for stakeholders to approach the creation of a video game with the background thought of what hardware they want to play it on. I am aware that this is known among most journals that cover this subject, but I believe the biggest drawback of these analysis's is that they do not account for genre being a key factor that drives the sales regionally. With role-playing games being the top genre (See figure 2),it would be beneficial to stakeholders to combine this knowledge to optimise the sales of a video game. 
+        To further support this idea, the statistic that Final Fantasy 14 (a worldwide MMORPG) has its highest regional player base in Japan, beating out North America and Europe [10]. You can also flip this on its head and identify the importance of mobile gaming. One of the drawbacks of my data is that it is based on the acknowledgement that a mobile is not considered a console. While it's true that its not typically considered one, mobile gaming is one of the largest mediums of gaming [11]. An example of this would be Activision, moving their shooter IP "Call of Duty" onto the phone, and it becoming one of their best selling products within North America [12].
+        It should also be stated that consumers are more drawn to ethical products [13], so it would be advisable for stakeholders to stick to ethical practices. Its also important to point out that sexual covers or violent covers also may not retain the popularity they might have thought they could have achieved [14]. With all of the knowledge from this review, it is possible to draw conclusions and recommendations.
+
+        <p>
+          Overall, this exemplifies the importance of hardware and regional trends when it comes to analyzing the market and tracing gaps to use for projects. Its evident that certain genres are not popular within certain areas, whether that is due to cultural differences [15] or accessibility, there is definitely positive and negative correlations that can be pulled from the data. My hypothesis is that stakeholders are able to analyse the regional markets to confirm trends within genres and establish gaps. 
+          The only drawback of my question is that it doesn't take into account hardware, but I believe I have addressed this is a substantial manner, more so than other journals on the subject may have, leading to a more grounded and concrete conclusion.
+        </p>
+
+            <hr class="underline">
+            <h2 id="Methods">
+                Methods
+            </h2>
+            <p>
+                For the data research and analysis within my project I have used Python as well as Pandas,matplotlib,Numpy and Seaborn, which are all Python libraries [16]. My data is gathered from public datasets on Kaggle. The first dataset represents the names and genre of video games, as well as their global sales figures. The second represents the sales figures of consoles on release, as well as active years for older generations.
+            </p>
+
+        <p>
+            <div class="row">
+                <div class="column">
+                    <img src="code snippet 1.png" alt="code snippet 1" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="code snippet 2.png" alt="code snippet 2" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="code snippet 3.png" alt="Code Snippet 3" style="width:100%">
+                </div>
+            </div>
+    </div>
+    
+    <p>
+        To visualise my data, I came to the conclusion that bar graphs would be best suited for this. This is not only for the readability of the data, but also because the data is very continuous in nature, therefore plotting this on a bar graph was most suitable. 
+        Within each bar graph, there is also a confidence interval of 95%, therefore leading me to generate the mean results of each genre. 
+        I have also generated a correlation coefficient for sales between regions to further analyse the trends that can be gathered from the sales data.
+    </p>
+    <p>
+        For my console dataset, I have used a table to represent sales figures, but also a scatter graph to represent  peak sales. 
+        This sort of data is important because in conjunction with the literature review, you can determine console popularity not only currently but also in the past, and tailor your game in relation to trends in this data and the game sales figures. 
+        This dataset has a drawback as it doesn't explicitly mention situations such as covid and ends after a date close to  release of the newer consoles.
+    </p>
+
+    <hr class="underline">
+    <h2 id="Results">
+        Results
+    </h2>
+
+    <figure>
+        <img src="Mean Sales Japan.png" alt="Mean Sales in Europe" width="40%">
+        <img src="Mean Sales Europe.png" alt="Mean Sales in Japan" width="40%">
+        <figcaption style="text-indent: 250px;">
+            Figure 2 - This graph shows the mean sales in Europe by genre (CI 95%)
+            <figcaption style="text-indent: 150px;float: left;">Figure 1 -This graph shows the mean sales in Japan by genre (CI 95%)</figcaption>
+    </figure>
+    <p>
+        Figure 1 shows that the most popular average for genre within Japan is role-playing. This graph is uniquely different from the others as its not only just a country, but the results are very different too. 
+        This graph encompasses the whole video games sales dataset. Figure 2 showcases the average genre sales within Europe. I also want to highlight that this graph is very similar to the North American results therefore, I did not showcase that graph within this section. 
+        Here we can see that shooter and platformer games are more popular among these audiences, contrary to the Japanese average.
+    </p>
+
+    <figure>
+        <img src="Sales Heatmap.png" alt="Mean Sales in Europe" width="40%">
+        <img src="scatter.png" alt="Mean Sales in Japan" width="40%">
+        <figcaption style="text-indent: 300px;">
+            Figure 4 - This graph shows the sales of consoles on release
+            <figcaption style="text-indent: 100px;float: left;">Figure 3 - A heatmap showing correlations between video game sales</figcaption>
+    </figure>
+
+    <p>
+        Figure 3 gives evidence that not all the markets within the regions are the same. This is calculated through the correlations and then shown on the heatmap,1 being a positive correlation and 0 being a negative correlation. 
+        Figure 4 is a scatter graph to analyse the release year of a console and the sales it has accumulated across all regions.
+    </p>
+    <figure>
+        <img src="table of consoles.png" alt="Mean Sales in Japan" width="25%">
+        <figcaption style="text-indent: 0px;">Figure 5 - A table showing sells of consoles (used to support figure 5)</figcaption>
+    </figure>
+  
+
+
+    <hr class="underline">
+    <h2 id="Conclusions">
+        Conclusions
+    </h2>
+    <p>
+        In conclusion,my data highlights a vast amount of negative and positive correlations for genres regionally, while also pointing to the vast impact of consoles on genre choice and accessibility. My recommendation to my stakeholders would be that they should be aware of the positive and negative trends regionally and take appropriate measures to make sure their product is going to satisfy their audiences.
+    </p>
+    <p>
+        As shown in my introduction, there are archetypes of games that tailor towards certain regional markets leading to the opportunity for hybrid genres to be made that can be sold successfully within these areas. There is also the underlying idea of hardware to consider in the market, as represented in my literature review and results.
+        Putting these two factors together, along with the research provided, can truly ground a stakeholders market analysis and help enable the identification of pros and cons within each market and help them garner an understanding of what to expect and make it so their product reaches its full potential.
+    </p>
+
+    <hr class="underline">
+    <h2 id="References">
+        References
+    </h2>
+    <sup style="text-align: center;">
+        [1] dopeTowns,"How the 1970s Sparked the Video Game Industry",Article,Accessed 24/02/2026, Available <a href="https://www.dopetowns.com/how-the-1970s-sparked-the-video-game-industry/">here</a><br>
+        [2] Tobias Kraemer,"Do all stars shine the same? Investigating the nonlinear effects of user and critic reviews on video game sales", Journal of Business Research, Feb 2025,  Available <a href="https://www.sciencedirect.com/science/article/pii/S0148296324005381">here</a><br>
+        [3] Miguel Angel Montaña Gutiérrez, "Video games sale control",Universidad Piloto de Colombia Editorial,August 2018,Available <a href="https://revistas.udistrital.edu.co/index.php/visele/article/view/18388">here</a><br>
+        [4] Joe Cox, "What Makes a Blockbuster Video Game? An Empirical Analysis of US Sales Data", Research Article, April 2013,Available <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/mde.2608">here</a><br>
+        [5] Michiel Van Crombrugge, "The rise of the subscription model in the video game console industry: Unveiling the commercial consequences for platform owners and video game sellers", International Journal of Research in Marketing, December 2025, Available <a href="https://www.sciencedirect.com/science/article/pii/S0167811625000187">here</a><br>
+        [6] Ya-Ling Wu, Eldon Y.Li, "Marketing mix, customer value, and customer loyalty in social commerce", Scholarly Journal, 2018, Available <a href="https://www.proquest.com/docview/1994328901?OpenUrlRefId=info:xri/sid:primo&accountid=15894&sourcetype=Scholarly%20Journals">here</a><br>
+        [7] Game Developer, "Square Enix confirms Sony exclusivity for Final Fantasy VII's remake trilogy", Article, Accessed 26/02/2026, Available <a href="https://www.gamedeveloper.com/business/square-enix-confirms-sony-exclusivity-for-final-fantasy-vii-s-remake-trilogy">here</a><br>
+        [8] VGChartz "Japanese Video Game Charts", Article, Acessed 27/02/206,  Available <a href="https://www.vgchartz.com/articles/?start=0&category_story=Latest+Charts&btn_submit=Search&q=japan">here</a><br>
+        [9] GameIndustry, "Nintendo Switch 2 sells 3.7m units in Japan in 2025, accounting for over half of home console sales", Article, Accessed 24/02/2026, Available <a href="https://www.gamesindustry.biz/nintendo-switch-2-sells-37m-units-in-japan-in-2025-accounting-for-over-half-of-home-console-sales">here</a><br>
+        [10] SplicedOnline, "Is FFXIV popular in Japan?", Article, Acessed 27/02/2026, Available <a href="https://splicedonline.com/is-ffxiv-popular-in-japan/">here</a><br>
+        [11] Sci-Tech, "Mobile Gaming Statistics By Origin, Market Size, Trends and Facts (2026)", Article, Accessed 26/02/2026, Available <a href="https://www.sci-tech-today.com/stats/mobile-gaming-statistics/#:~:text=The%20active%20global%20population%20of%20mobile%20gamers%20currently,revenue%20of%20%242.2%20billion%20from%20in-app%20purchases%20IAP.">here</a><br>
+        [12] Activision, "Activision Blizzard Announces Second Quarter 2023 Financial Results", Press Release, Accessed 26/02/2026, Available <a href="https://investor.activision.com/news-releases/news-release-details/activision-blizzard-announces-second-quarter-2023-financial">here</a><br>
+        [13] Brandon J.Reich, "Implicit Ethical Consumerism: Development and Cross-Cultural Validation of a Novel Affect-Misattribution Measure", Research Note, May 2025, Available <a href="https://onlinelibrary.wiley.com/doi/full/10.1002%2Fmar.22238">here</a><br>
+        [14] Johann Valentowitsch, "Does sex sell? Gender representation, sexualization, and violence on video game covers and their impact on sales", Journal of Business Stratergies, Spring 2024, Available <a href="https://www.proquest.com/docview/3049843411?RAO=true&accountid=15894&pq-origsite=primo&sourcetype=Scholarly%20Journals">here</a><br>
+        [15] Michael Rodriguez, "Developing Tomorrow's Global Sales Leader: Adapting to Cultural Differences Utilizing Role Play",  Journal for Advancement of Marketing Education, Spring 2018, Available <a href="https://www.proquest.com/docview/2592375804?pq-origsite=primo&accountid=15894&sourcetype=Scholarly%20Journals">here</a><br>
+        [16] Wes McKinney, "Python for Data Analysis: Data Wrangling With Pandas,Numpy and Jupyter", Book, August 2022, Available <a href="https://www.vlebooks.com/Product/Index/2926917?page=0&startBookmarkId=-1">here</a><br>
+
+
+
+
+    </sup>
+    </div>
+
+</body>
+</html>
