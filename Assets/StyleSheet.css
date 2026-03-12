@@ -1,7 +1,13 @@
 body {
     padding: 30px;
     background-color: rgb(255, 255, 255);
+    margin-top: 0px;
   }
+
+.Content{
+    margin: 20px;
+}
+
 h2, p {
     text-align: left;
     color: rgb(0, 0, 0);
@@ -12,10 +18,13 @@ hr.underline {
   }
 
 .header {
+    text-align: left;
     grid-column: 2;
     grid-row: 1;
     background-color: rgb(255, 255, 255);
     padding: 5px;
+    margin-bottom: 5px;
+    flex: 1;
 }
 
 .column {
@@ -36,5 +45,46 @@ hr.underline {
 }
 img.center {
     text-align: center;
+}
+
+.nav-bar ul{
+
+    list-style-type: none;
+    background-color: lightskyblue;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-size: 30px;
+    font-display: block;
+    font-weight:bold;
+}
+
+.nav-bar a{
+
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.nav-bar a:hover{
+    background-color: floralwhite;
+}
+
+.nav-bar li{
+    float: left;
+
+}
+ figcaption{
+     font-weight:bold;
+     font-size: 17px;
+ }
+
+.smallimage {
+    height: auto;
+    width: 100px;
+    border-radius: 2%;
+    float: right;
 }
 
